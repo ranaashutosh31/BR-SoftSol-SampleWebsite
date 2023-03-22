@@ -1,0 +1,83 @@
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+.br{
+    color: rgb(0, 195, 255);
+}
+.bg-br{
+    background: linear-gradient(rgb(0, 195, 255),rgb(17, 130, 230));
+}
+.welcome_div{
+    height: 70vh;
+    font-family: 'Dancing Script', cursive;
+}
+.welcome{
+    background-image: url("images/bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    margin: 0;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.welcome::before{
+    content: "";
+    font-size: calc(100% + 4vw + 1vh);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.5);
+}
+.welcome_msg{
+    font-size: calc(100% + 4vw + 1vh);
+    color: white !important;
+    opacity: 0.99 !important;
+    /* padding-bottom: 180px; */
+}
+.col-sm-12{
+    margin-top: 0 !important;
+}
+.border-br{
+    border-color:rgb(0, 195, 255) !important;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    color: white;
+    overflow: hidden;
+    padding-top: 13px;
+    background-color: rgb(51, 51, 51) !important;
+}
+footer a{
+    color: rgba(255, 255, 255, 0.55) !important;
+    text-decoration: none;
+    font-size: medium;
+}
+footer a:hover{
+    color: rgb(0, 195, 255) !important;
+    text-decoration: underline;
+    font-size: large !important;
+}
+a:hover{
+    color: rgb(0, 195, 255) !important;
+    text-decoration: underline;
+    font-size: large !important;
+}
+a:active{
+    color: rgb(0, 195, 255) !important;
+    text-decoration: underline;
+    font-size: medium;
+}
+.Copyright{
+    padding: 20px;
+}
